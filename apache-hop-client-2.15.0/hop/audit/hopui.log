@@ -1,0 +1,323 @@
+2026/03/25 17:23:02 - Hop - Projects enabled
+2026/03/25 17:34:04 - Hop - Pipeline opened.
+2026/03/25 17:34:04 - Hop - Launching pipeline [Dados_Producoes_Pesquisadores_Varios]...
+2026/03/25 17:34:04 - Hop - Started the pipeline execution.
+2026/03/25 17:34:04 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 17:34:04 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2026/03/25 17:34:04 - Insert / update.0 - ERROR: Database connection is missing for transform [Insert / update]!
+2026/03/25 17:34:04 - Insert / update.0 - ERROR: Error initializing transform [Insert / update]
+2026/03/25 17:34:04 - Dados_Producoes_Pesquisadores_Varios - ERROR: Transform [Insert / update.0] failed to initialize!
+2026/03/25 17:34:04 - Hop - ERROR: Dados_Producoes_Pesquisadores_Varios: preparing pipeline execution failed
+2026/03/25 17:34:04 - Hop - ERROR: org.apache.hop.core.exception.HopException: 
+2026/03/25 17:34:04 - Hop - We failed to initialize at least one transform.  Execution can not begin!
+2026/03/25 17:34:04 - Hop - 
+2026/03/25 17:34:04 - Hop - 
+2026/03/25 17:34:04 - Hop - 	at org.apache.hop.pipeline.Pipeline.prepareExecution(Pipeline.java:1092)
+2026/03/25 17:34:04 - Hop - 	at org.apache.hop.pipeline.engines.local.LocalPipelineEngine.prepareExecution(LocalPipelineEngine.java:232)
+2026/03/25 17:34:04 - Hop - 	at org.apache.hop.ui.hopgui.file.pipeline.HopGuiPipelineGraph.lambda$preparePipeline$16(HopGuiPipelineGraph.java:4499)
+2026/03/25 17:34:04 - Hop - 	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026/03/25 17:34:34 - Hop - Pipeline opened.
+2026/03/25 17:34:34 - Hop - Launching pipeline [Dados_Producoes_Pesquisadores_Varios]...
+2026/03/25 17:34:34 - Hop - Started the pipeline execution.
+2026/03/25 17:34:34 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 17:34:34 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2026/03/25 17:34:34 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 17:34:34 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)
+2026/03/25 17:34:34 - Select values.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2026/03/25 17:34:34 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.091 seconds [  0.091" ]
+2026/03/25 17:34:34 - Dados_Producoes_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2026/03/25 17:34:53 - Hop - Pipeline opened.
+2026/03/25 17:34:53 - Hop - Launching pipeline [Dados_Producoes_Pesquisadores_Varios]...
+2026/03/25 17:34:53 - Hop - Started the pipeline execution.
+2026/03/25 17:34:53 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 17:34:53 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2026/03/25 17:34:53 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 17:34:53 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)
+2026/03/25 17:34:53 - Select values.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2026/03/25 17:34:53 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.066 seconds [  0.066" ]
+2026/03/25 17:34:53 - Dados_Producoes_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2026/03/25 17:37:14 - Hop - ERROR: Error refresh folder 'C:\Users\eduardo-windows'
+2026/03/25 17:37:14 - Hop - ERROR: java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.toString()" because "s" is null
+2026/03/25 17:37:14 - Hop - 	at java.base/java.lang.String.contains(String.java:3072)
+2026/03/25 17:37:14 - Hop - 	at org.apache.hop.ui.hopgui.perspective.explorer.ExplorerPerspective.refreshFolder(ExplorerPerspective.java:1414)
+2026/03/25 17:37:14 - Hop - 	at org.apache.hop.ui.hopgui.perspective.explorer.ExplorerPerspective.refresh(ExplorerPerspective.java:1317)
+2026/03/25 17:37:14 - Hop - 	at org.apache.hop.ui.hopgui.perspective.explorer.ExplorerPerspective.perspectiveActivated(ExplorerPerspective.java:220)
+2026/03/25 17:37:14 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.setActivePerspective(HopGui.java:1642)
+2026/03/25 17:37:14 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.lambda$loadPerspectives$2(HopGui.java:557)
+2026/03/25 17:37:14 - Hop - 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+2026/03/25 17:37:14 - Hop - 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+2026/03/25 17:37:14 - Hop - 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+2026/03/25 17:37:14 - Hop - 	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4119)
+2026/03/25 17:37:14 - Hop - 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3707)
+2026/03/25 17:37:14 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.open(HopGui.java:486)
+2026/03/25 17:37:14 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.main(HopGui.java:364)
+2026/03/25 17:37:15 - Hop - ERROR: Error refresh folder 'C:\Users\eduardo-windows'
+2026/03/25 17:37:15 - Hop - ERROR: java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.toString()" because "s" is null
+2026/03/25 17:37:15 - Hop - 	at java.base/java.lang.String.contains(String.java:3072)
+2026/03/25 17:37:15 - Hop - 	at org.apache.hop.ui.hopgui.perspective.explorer.ExplorerPerspective.refreshFolder(ExplorerPerspective.java:1414)
+2026/03/25 17:37:15 - Hop - 	at org.apache.hop.ui.hopgui.perspective.explorer.ExplorerPerspective.refresh(ExplorerPerspective.java:1317)
+2026/03/25 17:37:15 - Hop - 	at org.apache.hop.ui.hopgui.perspective.explorer.ExplorerPerspective.perspectiveActivated(ExplorerPerspective.java:220)
+2026/03/25 17:37:15 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.setActivePerspective(HopGui.java:1642)
+2026/03/25 17:37:15 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.lambda$loadPerspectives$2(HopGui.java:557)
+2026/03/25 17:37:15 - Hop - 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+2026/03/25 17:37:15 - Hop - 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+2026/03/25 17:37:15 - Hop - 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+2026/03/25 17:37:15 - Hop - 	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4119)
+2026/03/25 17:37:15 - Hop - 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3707)
+2026/03/25 17:37:15 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.open(HopGui.java:486)
+2026/03/25 17:37:15 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.main(HopGui.java:364)
+2026/03/25 17:41:49 - org.apache.hop.pipeline.transforms.sort.SortRowsMeta@4c822e9b - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:42:15 - org.apache.hop.pipeline.transforms.sort.SortRowsMeta@4c822e9b - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:42:39 - org.apache.hop.pipeline.transforms.sort.SortRowsMeta@4c822e9b - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:39 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:44 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:45 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:45 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:45 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:45 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:47 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:47 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:48 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:48 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:49 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:50 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:50 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:50 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:50 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:51 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:51 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:51 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:52 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:43:52 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:44:19 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:44:22 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:44:57 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:44:57 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:44:57 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@2a85e4f4 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:45:46 - Hop - ERROR: Error refresh folder 'C:\Users\eduardo-windows'
+2026/03/25 17:45:46 - Hop - ERROR: java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.toString()" because "s" is null
+2026/03/25 17:45:46 - Hop - 	at java.base/java.lang.String.contains(String.java:3072)
+2026/03/25 17:45:46 - Hop - 	at org.apache.hop.ui.hopgui.perspective.explorer.ExplorerPerspective.refreshFolder(ExplorerPerspective.java:1414)
+2026/03/25 17:45:46 - Hop - 	at org.apache.hop.ui.hopgui.perspective.explorer.ExplorerPerspective.refresh(ExplorerPerspective.java:1317)
+2026/03/25 17:45:46 - Hop - 	at org.apache.hop.ui.hopgui.perspective.explorer.ExplorerPerspective.perspectiveActivated(ExplorerPerspective.java:220)
+2026/03/25 17:45:46 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.setActivePerspective(HopGui.java:1642)
+2026/03/25 17:45:46 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.lambda$loadPerspectives$2(HopGui.java:557)
+2026/03/25 17:45:46 - Hop - 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+2026/03/25 17:45:46 - Hop - 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+2026/03/25 17:45:46 - Hop - 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+2026/03/25 17:45:46 - Hop - 	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4119)
+2026/03/25 17:45:46 - Hop - 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3707)
+2026/03/25 17:45:46 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.open(HopGui.java:486)
+2026/03/25 17:45:46 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.main(HopGui.java:364)
+2026/03/25 17:45:54 - Hop - ERROR: Error refresh folder 'C:\Users\eduardo-windows'
+2026/03/25 17:45:54 - Hop - ERROR: java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.toString()" because "s" is null
+2026/03/25 17:45:54 - Hop - 	at java.base/java.lang.String.contains(String.java:3072)
+2026/03/25 17:45:54 - Hop - 	at org.apache.hop.ui.hopgui.perspective.explorer.ExplorerPerspective.refreshFolder(ExplorerPerspective.java:1414)
+2026/03/25 17:45:54 - Hop - 	at org.apache.hop.ui.hopgui.perspective.explorer.ExplorerPerspective.refresh(ExplorerPerspective.java:1317)
+2026/03/25 17:45:54 - Hop - 	at org.apache.hop.ui.hopgui.perspective.explorer.ExplorerPerspective.perspectiveActivated(ExplorerPerspective.java:220)
+2026/03/25 17:45:54 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.setActivePerspective(HopGui.java:1642)
+2026/03/25 17:45:54 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.lambda$loadPerspectives$2(HopGui.java:557)
+2026/03/25 17:45:54 - Hop - 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+2026/03/25 17:45:54 - Hop - 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+2026/03/25 17:45:54 - Hop - 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+2026/03/25 17:45:54 - Hop - 	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4119)
+2026/03/25 17:45:54 - Hop - 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3707)
+2026/03/25 17:45:54 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.open(HopGui.java:486)
+2026/03/25 17:45:54 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.main(HopGui.java:364)
+2026/03/25 17:48:06 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@7356f0e0 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:48:06 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@7356f0e0 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:48:06 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@7356f0e0 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:48:32 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@7356f0e0 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:48:32 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@7356f0e0 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:48:32 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@7356f0e0 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:49:04 - org.apache.hop.pipeline.transforms.insertupdate.InsertUpdateMeta@42d12a27 - ERROR: Unable to get fields from previous transforms because of an error
+2026/03/25 17:49:43 - DBExplorer - SelectTableDialog
+2026/03/25 17:50:37 - Hop - Pipeline opened.
+2026/03/25 17:50:37 - Hop - Launching pipeline [Dados_Pesquisador]...
+2026/03/25 17:50:37 - Hop - Started the pipeline execution.
+2026/03/25 17:50:37 - Dados_Pesquisador - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 17:50:37 - Dados_Pesquisador - Execution started for pipeline [Dados_Pesquisador]
+2026/03/25 17:50:37 - Get data from XML.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2026/03/25 17:50:37 - Insert / update.0 - ERROR: Error in transform, asking everyone to stop because of:
+2026/03/25 17:50:37 - Insert / update.0 - ERROR: org.apache.hop.core.exception.HopDatabaseException: 
+2026/03/25 17:50:37 - Insert / update.0 - Error looking up row in database
+2026/03/25 17:50:37 - Insert / update.0 - ERROR: relation "public.pesquisadores" does not exist
+  Position: 29
+2026/03/25 17:50:37 - Insert / update.0 - 
+2026/03/25 17:50:37 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2869)
+2026/03/25 17:50:37 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2846)
+2026/03/25 17:50:37 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2841)
+2026/03/25 17:50:37 - Insert / update.0 - 	at org.apache.hop.pipeline.transforms.insertupdate.InsertUpdate.lookupValues(InsertUpdate.java:86)
+2026/03/25 17:50:37 - Insert / update.0 - 	at org.apache.hop.pipeline.transforms.insertupdate.InsertUpdate.processRow(InsertUpdate.java:322)
+2026/03/25 17:50:37 - Insert / update.0 - 	at org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)
+2026/03/25 17:50:37 - Insert / update.0 - 	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026/03/25 17:50:37 - Insert / update.0 - Caused by: org.postgresql.util.PSQLException: ERROR: relation "public.pesquisadores" does not exist
+  Position: 29
+2026/03/25 17:50:37 - Insert / update.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2734)
+2026/03/25 17:50:37 - Insert / update.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421)
+2026/03/25 17:50:37 - Insert / update.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+2026/03/25 17:50:37 - Insert / update.0 - 	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:518)
+2026/03/25 17:50:37 - Insert / update.0 - 	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435)
+2026/03/25 17:50:37 - Insert / update.0 - 	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:196)
+2026/03/25 17:50:37 - Insert / update.0 - 	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:139)
+2026/03/25 17:50:37 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2855)
+2026/03/25 17:50:37 - Insert / update.0 - 	... 6 more
+2026/03/25 17:50:37 - Insert / update.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2026/03/25 17:50:37 - Dados_Pesquisador - Pipeline detected one or more transforms with errors.
+2026/03/25 17:50:37 - Dados_Pesquisador - Pipeline is killing the other transforms!
+2026/03/25 17:50:37 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/03/25 17:50:37 - Dados_Pesquisador - Pipeline duration : 0.108 seconds [  0.108" ]
+2026/03/25 17:50:37 - Dados_Pesquisador - Execution finished on a local pipeline engine with run configuration 'local'
+2026/03/25 17:53:45 - Hop - Pipeline opened.
+2026/03/25 17:53:45 - Hop - Launching pipeline [Dados_Pesquisador]...
+2026/03/25 17:53:45 - Hop - Started the pipeline execution.
+2026/03/25 17:53:45 - Dados_Pesquisador - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 17:53:45 - Dados_Pesquisador - Execution started for pipeline [Dados_Pesquisador]
+2026/03/25 17:53:45 - Get data from XML.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2026/03/25 17:53:45 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/03/25 17:53:45 - Insert / update.0 - Finished processing (I=1, O=1, R=1, W=1, U=0, E=0)
+2026/03/25 17:53:45 - Dados_Pesquisador - Pipeline duration : 0.099 seconds [  0.099" ]
+2026/03/25 17:53:45 - Dados_Pesquisador - Execution finished on a local pipeline engine with run configuration 'local'
+2026/03/25 17:53:55 - Hop - Pipeline opened.
+2026/03/25 17:53:55 - Hop - Launching pipeline [Dados_Pesquisadores_Varios]...
+2026/03/25 17:53:55 - Hop - Started the pipeline execution.
+2026/03/25 17:53:55 - Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 17:53:55 - Dados_Pesquisadores_Varios - Execution started for pipeline [Dados_Pesquisadores_Varios]
+2026/03/25 17:53:55 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 17:53:55 - Get data from XML.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 17:53:55 - Select values.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 17:53:56 - Insert / update.0 - Finished processing (I=2, O=1, R=2, W=2, U=0, E=0)
+2026/03/25 17:53:56 - Dados_Pesquisadores_Varios - Pipeline duration : 0.157 seconds [  0.157" ]
+2026/03/25 17:53:56 - Dados_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2026/03/25 17:56:27 - Hop - Pipeline opened.
+2026/03/25 17:56:27 - Hop - Launching pipeline [Dados_Producoes_Pesquisadores_Varios]...
+2026/03/25 17:56:27 - Hop - Started the pipeline execution.
+2026/03/25 17:56:27 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 17:56:27 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2026/03/25 17:56:27 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 17:56:27 - Table input Pesquisadores.0 - Finished reading query, closing connection.
+2026/03/25 17:56:27 - Table input Pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 17:56:27 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)
+2026/03/25 17:56:27 - Sort rows Pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 17:56:27 - Select values.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2026/03/25 17:56:27 - Sort rows Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2026/03/25 17:56:27 - Insert / update.0 - ERROR: Error in transform, asking everyone to stop because of:
+2026/03/25 17:56:27 - Insert / update.0 - ERROR: org.apache.hop.core.exception.HopDatabaseException: 
+2026/03/25 17:56:27 - Insert / update.0 - Error looking up row in database
+2026/03/25 17:56:27 - Insert / update.0 - ERROR: column "nomeartigo" does not exist
+  Position: 8
+2026/03/25 17:56:27 - Insert / update.0 - 
+2026/03/25 17:56:27 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2869)
+2026/03/25 17:56:27 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2846)
+2026/03/25 17:56:27 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2841)
+2026/03/25 17:56:27 - Insert / update.0 - 	at org.apache.hop.pipeline.transforms.insertupdate.InsertUpdate.lookupValues(InsertUpdate.java:86)
+2026/03/25 17:56:27 - Insert / update.0 - 	at org.apache.hop.pipeline.transforms.insertupdate.InsertUpdate.processRow(InsertUpdate.java:322)
+2026/03/25 17:56:27 - Insert / update.0 - 	at org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)
+2026/03/25 17:56:27 - Insert / update.0 - 	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026/03/25 17:56:27 - Insert / update.0 - Caused by: org.postgresql.util.PSQLException: ERROR: column "nomeartigo" does not exist
+  Position: 8
+2026/03/25 17:56:27 - Insert / update.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2734)
+2026/03/25 17:56:27 - Insert / update.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421)
+2026/03/25 17:56:27 - Insert / update.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+2026/03/25 17:56:27 - Insert / update.0 - 	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:518)
+2026/03/25 17:56:27 - Insert / update.0 - 	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435)
+2026/03/25 17:56:27 - Insert / update.0 - 	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:196)
+2026/03/25 17:56:27 - Insert / update.0 - 	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:139)
+2026/03/25 17:56:27 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2855)
+2026/03/25 17:56:27 - Insert / update.0 - 	... 6 more
+2026/03/25 17:56:27 - Insert / update.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2026/03/25 17:56:27 - Dados_Producoes_Pesquisadores_Varios - Pipeline detected one or more transforms with errors.
+2026/03/25 17:56:27 - Dados_Producoes_Pesquisadores_Varios - Pipeline is killing the other transforms!
+2026/03/25 17:56:27 - Merge join.0 - Finished processing (I=0, O=0, R=76, W=73, U=0, E=0)
+2026/03/25 17:56:27 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.276 seconds [  0.276" ]
+2026/03/25 17:56:27 - Dados_Producoes_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2026/03/25 17:56:50 - Preview pipeline for Get file names - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 17:56:50 - Preview pipeline for Get file names - Execution started for pipeline [Preview pipeline for Get file names]
+2026/03/25 17:56:50 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 17:56:50 - dummy.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 17:56:50 - Preview pipeline for Get file names - Pipeline duration : 0.039 seconds [  0.039" ]
+2026/03/25 17:56:50 - Preview pipeline for Get file names - Execution finished on a local pipeline engine with run configuration 'local'
+2026/03/25 17:58:09 - Hop - Pipeline opened.
+2026/03/25 17:58:09 - Hop - Launching pipeline [Dados_Producoes_Pesquisadores_Varios]...
+2026/03/25 17:58:09 - Hop - Started the pipeline execution.
+2026/03/25 17:58:10 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 17:58:10 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2026/03/25 17:58:10 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 17:58:10 - Table input Pesquisadores.0 - Finished reading query, closing connection.
+2026/03/25 17:58:10 - Table input Pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 17:58:10 - Sort rows Pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 17:58:10 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)
+2026/03/25 17:58:10 - Select values.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2026/03/25 17:58:10 - Sort rows Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2026/03/25 17:58:10 - Merge join.0 - Finished processing (I=0, O=0, R=120, W=118, U=0, E=0)
+2026/03/25 17:58:10 - Insert / update.0 - Finished processing (I=118, O=50, R=118, W=118, U=68, E=0)
+2026/03/25 17:58:10 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.494 seconds [  0.494" ]
+2026/03/25 17:58:10 - Dados_Producoes_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2026/03/25 18:08:48 - Hop - Starting workflow
+2026/03/25 18:08:48 - Workflow - Start of workflow execution
+2026/03/25 18:08:48 - Workflow - Starting action [Dados_Pesquisadores_Varios.hpl]
+2026/03/25 18:08:48 - Dados_Pesquisadores_Varios.hpl - Using run configuration [local]
+2026/03/25 18:08:48 - Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 18:08:48 - Dados_Pesquisadores_Varios - Execution started for pipeline [Dados_Pesquisadores_Varios]
+2026/03/25 18:08:48 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 18:08:48 - Get data from XML.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 18:08:48 - Select values.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 18:08:48 - Insert / update.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 18:08:48 - Dados_Pesquisadores_Varios - Pipeline duration : 0.062 seconds [  0.062" ]
+2026/03/25 18:08:48 - Dados_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2026/03/25 18:08:48 - Workflow - Starting action [Dados_Producoes_Pesquisadores_Varios.hpl]
+2026/03/25 18:08:48 - Dados_Producoes_Pesquisadores_Varios.hpl - Using run configuration [local]
+2026/03/25 18:08:48 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 18:08:48 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2026/03/25 18:08:48 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 18:08:48 - Table input Pesquisadores.0 - Finished reading query, closing connection.
+2026/03/25 18:08:48 - Table input Pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 18:08:48 - Sort rows Pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 18:08:48 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)
+2026/03/25 18:08:48 - Select values.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2026/03/25 18:08:48 - Sort rows Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2026/03/25 18:08:48 - Merge join.0 - Finished processing (I=0, O=0, R=120, W=118, U=0, E=0)
+2026/03/25 18:08:49 - Insert / update.0 - Finished processing (I=118, O=0, R=118, W=118, U=91, E=0)
+2026/03/25 18:08:49 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.444 seconds [  0.444" ]
+2026/03/25 18:08:49 - Dados_Producoes_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2026/03/25 18:08:49 - Workflow - Starting action [Success]
+2026/03/25 18:08:49 - Workflow - Finished action [Success] (result=[true])
+2026/03/25 18:08:49 - Workflow - Finished action [Dados_Producoes_Pesquisadores_Varios.hpl] (result=[true])
+2026/03/25 18:08:49 - Workflow - Finished action [Dados_Pesquisadores_Varios.hpl] (result=[true])
+2026/03/25 18:08:49 - Workflow - Workflow execution finished
+2026/03/25 18:08:49 - Hop - Workflow execution has ended
+2026/03/25 18:08:49 - Workflow - Workflow duration : 0.597 seconds [  0.597" ]
+2026/03/25 18:09:14 - Hop - Starting workflow
+2026/03/25 18:09:14 - Workflow - Start of workflow execution
+2026/03/25 18:09:14 - Workflow - Starting action [Dados_Pesquisadores_Varios.hpl]
+2026/03/25 18:09:14 - Dados_Pesquisadores_Varios.hpl - Using run configuration [local]
+2026/03/25 18:09:14 - Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 18:09:14 - Dados_Pesquisadores_Varios - Execution started for pipeline [Dados_Pesquisadores_Varios]
+2026/03/25 18:09:14 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 18:09:14 - Get data from XML.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 18:09:14 - Select values.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 18:09:14 - Insert / update.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 18:09:14 - Dados_Pesquisadores_Varios - Pipeline duration : 0.057 seconds [  0.057" ]
+2026/03/25 18:09:14 - Dados_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2026/03/25 18:09:14 - Workflow - Starting action [Dados_Producoes_Pesquisadores_Varios.hpl]
+2026/03/25 18:09:14 - Dados_Producoes_Pesquisadores_Varios.hpl - Using run configuration [local]
+2026/03/25 18:09:14 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 18:09:14 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2026/03/25 18:09:14 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 18:09:14 - Table input Pesquisadores.0 - Finished reading query, closing connection.
+2026/03/25 18:09:14 - Table input Pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 18:09:14 - Sort rows Pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 18:09:14 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)
+2026/03/25 18:09:14 - Select values.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2026/03/25 18:09:14 - Sort rows Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2026/03/25 18:09:14 - Merge join.0 - Finished processing (I=0, O=0, R=120, W=118, U=0, E=0)
+2026/03/25 18:09:14 - Insert / update.0 - Finished processing (I=118, O=0, R=118, W=118, U=91, E=0)
+2026/03/25 18:09:14 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.452 seconds [  0.452" ]
+2026/03/25 18:09:14 - Dados_Producoes_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2026/03/25 18:09:14 - Workflow - Starting action [Success]
+2026/03/25 18:09:14 - Workflow - Finished action [Success] (result=[true])
+2026/03/25 18:09:14 - Workflow - Finished action [Dados_Producoes_Pesquisadores_Varios.hpl] (result=[true])
+2026/03/25 18:09:14 - Workflow - Finished action [Dados_Pesquisadores_Varios.hpl] (result=[true])
+2026/03/25 18:09:14 - Workflow - Workflow execution finished
+2026/03/25 18:09:14 - Hop - Workflow execution has ended
+2026/03/25 18:09:14 - Workflow - Workflow duration : 0.605 seconds [  0.605" ]

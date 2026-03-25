@@ -1,0 +1,28 @@
+{
+  "executionType" : "Action",
+  "dataSetMeta" : {
+    "setKey" : "a886f48c-0b3a-42e0-857d-38a7b2a1fa03",
+    "logChannelId" : "a886f48c-0b3a-42e0-857d-38a7b2a1fa03",
+    "name" : "Start",
+    "fieldName" : null,
+    "sampleDescription" : null,
+    "copyNr" : "0",
+    "description" : "action"
+  },
+  "finished" : true,
+  "collectionDate" : 1774472954368,
+  "parentId" : "dfa92e18-26d5-4a57-bca6-6022cc8d9d12",
+  "ownerId" : "a886f48c-0b3a-42e0-857d-38a7b2a1fa03",
+  "setMetaData" : {
+    "result" : {
+      "setKey" : "result",
+      "logChannelId" : "a886f48c-0b3a-42e0-857d-38a7b2a1fa03",
+      "name" : "Start",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Result details of action"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/2NgYGBkYCtKLS7NKWFgYGCCYhBgzk6t/I8FAKUYdUCEHkhxkApUOQNrap5uaDAjAwOSQHxoMJAh6JibWpSZnKgfnJgfH5BYmpPPgGQPa1liTmkqLW1iBhHsEE/ag9gsJUWlqSAGW2pRUX5RMYjJaAAiOYpL8gsKUlPAyljTEnOKUwHx/pTqIwEAAA=="
+}

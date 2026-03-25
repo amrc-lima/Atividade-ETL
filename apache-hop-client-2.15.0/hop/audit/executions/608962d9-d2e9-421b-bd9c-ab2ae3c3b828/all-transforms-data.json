@@ -1,0 +1,83 @@
+{
+  "executionType" : "Transform",
+  "dataSetMeta" : null,
+  "finished" : true,
+  "collectionDate" : 1774469305877,
+  "parentId" : "608962d9-d2e9-421b-bd9c-ab2ae3c3b828",
+  "ownerId" : "all-transforms",
+  "setMetaData" : {
+    "LastOutput/Select values.0" : {
+      "setKey" : "LastOutput/Select values.0",
+      "logChannelId" : "cd1b3f3b-6de0-4f29-a321-e86a798c2e83",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Select values.0"
+    },
+    "FirstOutput/Get data from XML.0" : {
+      "setKey" : "FirstOutput/Get data from XML.0",
+      "logChannelId" : "5dc55b53-ba23-468d-9266-1ffe3b923100",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Get data from XML.0"
+    },
+    "FirstOutput/Get file names.0" : {
+      "setKey" : "FirstOutput/Get file names.0",
+      "logChannelId" : "3030ddf6-9d58-48d3-a0cc-796de0c1ac58",
+      "name" : "Get file names",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Get file names.0"
+    },
+    "LastOutput/Get data from XML.0" : {
+      "setKey" : "LastOutput/Get data from XML.0",
+      "logChannelId" : "5dc55b53-ba23-468d-9266-1ffe3b923100",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Get data from XML.0"
+    },
+    "LastOutput/Insert / update.0" : {
+      "setKey" : "LastOutput/Insert / update.0",
+      "logChannelId" : "a35d2c2d-62bc-49a0-8d69-32b24f0ac454",
+      "name" : "Insert / update",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Insert / update.0"
+    },
+    "FirstOutput/Select values.0" : {
+      "setKey" : "FirstOutput/Select values.0",
+      "logChannelId" : "cd1b3f3b-6de0-4f29-a321-e86a798c2e83",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Select values.0"
+    },
+    "LastOutput/Get file names.0" : {
+      "setKey" : "LastOutput/Get file names.0",
+      "logChannelId" : "3030ddf6-9d58-48d3-a0cc-796de0c1ac58",
+      "name" : "Get file names",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Get file names.0"
+    },
+    "FirstOutput/Insert / update.0" : {
+      "setKey" : "FirstOutput/Insert / update.0",
+      "logChannelId" : "a35d2c2d-62bc-49a0-8d69-32b24f0ac454",
+      "name" : "Insert / update",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Insert / update.0"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/+1a3W7TMBjNtjK6jU2bxBUbEMTPFanbTE3HuKr2p6KyoqWVuIg0eY27GpI4xA4bPAAvgbjeE/AEeyBu4Hrkd8vSdiAx0kizpSaV7fqcz/nSnGNHEISicK8JKWu5zHYZUJGBukz8CA0X0VJZEISC95kUwrLYbrQ7zZa02ZLqe+3GTussKl7b0g5iog4ZFHsOMcW3r5tnQ0o0kHALWVJHnRCERMV+R/XHqZvIwV0IVEj230DXIEFz1G0GWgQ6DB+SxGjzl1gPgZzcezIcOOY+FDOOutBQ1d3MIo1Rp7HetewPieGuDvPfMS/6Lyq1iiLL1apSU+Taqryabq+8UJSKUitXqmtytVZeEx5uY+c8iQbmJ0ikpURwxR42kAVN5I36M2K+4P/Mrxf9BpqIaeK5fyhddSH/fl4XaJ84bH98BAo2ZP0xwLJPdobRFqJu0+gYU5YcPiPgIqZ9rOvIyh56FlMHQR0eGCh78DlMjxzMULboU1G3RcN7lphExz2MdIbNDCnEj4gCxZ9R4t9wCKxXe+exV8ovpeB0XRTie20GHTNkUUwyTL4Ye8p1cPaotx1C2FiQx6dJYgbz9d1xwo9HnhQbm816u72lZov8dWNd61DkUA3pLnR0Ih1hSydHVNtE9D0jtrYBbdjFDJ6enH5HVNwKu4mviHOINL+tj6Q+saWugZHFJLlUqZbKmlejdYnVw4ea7ZB3nsyimgEZQ1QzEYN+UJp/oIhpx6ahpQVQyav0+d0d1fAlH8SDhPFvykDNTYTHb8+kye3wGiz80P3TVNT1xO+6DgDYWAcBe5BiDyL24DL7p3I54u99CyIAoyIAXg0IIwBxBCCMAMQRgCgC4NECo2Z4LsFVGCyDmjVH6ZTW2+fpNKoh5+lE5sJJn330K+/pNGqG/5ROAxZpJW2BLp59gf+ZF7j/CfKF+x/uf7j/4f7n/9znN8r/5EW/cDmcezmcl1ThUjffUvdBYjeIL+RzIcuFLBeyXMhyIcsX8vlC/jUicznK5eh1rbzmKJ24Ec69EU6n08C+0ErCATUsLzomAtG1PSwU+J+wLCeX+/lrc3l5nI31tblhW4xXvla3nDLbfMuIO23utLMG506bO+3sUW/4lhE3Xrk3XnlJFW6q8m2q7iet0EjH9BtjeAsQbDQAAA=="
+}

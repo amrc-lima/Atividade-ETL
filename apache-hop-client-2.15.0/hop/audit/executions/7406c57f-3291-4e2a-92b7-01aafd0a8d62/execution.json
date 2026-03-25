@@ -1,0 +1,16 @@
+{
+  "name" : "Table input Pesquisadores",
+  "filename" : null,
+  "id" : "7406c57f-3291-4e2a-92b7-01aafd0a8d62",
+  "parentId" : "557e839e-5cfd-41a2-a4f6-8a8939306d1d",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1774472928592,
+  "executionStartDate" : 1774472928561,
+  "copyNr" : "0"
+}

@@ -1,0 +1,31 @@
+2026/03/25 18:08:48 - Workflow - Start of workflow execution
+2026/03/25 18:08:48 - Workflow - Starting action [Dados_Pesquisadores_Varios.hpl]
+2026/03/25 18:08:48 - Dados_Pesquisadores_Varios.hpl - Using run configuration [local]
+2026/03/25 18:08:48 - Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 18:08:48 - Dados_Pesquisadores_Varios - Execution started for pipeline [Dados_Pesquisadores_Varios]
+2026/03/25 18:08:48 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 18:08:48 - Get data from XML.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 18:08:48 - Select values.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 18:08:48 - Insert / update.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 18:08:48 - Dados_Pesquisadores_Varios - Pipeline duration : 0.062 seconds [  0.062" ]
+2026/03/25 18:08:48 - Dados_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2026/03/25 18:08:48 - Workflow - Starting action [Dados_Producoes_Pesquisadores_Varios.hpl]
+2026/03/25 18:08:48 - Dados_Producoes_Pesquisadores_Varios.hpl - Using run configuration [local]
+2026/03/25 18:08:48 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 18:08:48 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2026/03/25 18:08:48 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 18:08:48 - Table input Pesquisadores.0 - Finished reading query, closing connection.
+2026/03/25 18:08:48 - Table input Pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 18:08:48 - Sort rows Pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2026/03/25 18:08:48 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)
+2026/03/25 18:08:48 - Select values.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2026/03/25 18:08:48 - Sort rows Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2026/03/25 18:08:48 - Merge join.0 - Finished processing (I=0, O=0, R=120, W=118, U=0, E=0)
+2026/03/25 18:08:49 - Insert / update.0 - Finished processing (I=118, O=0, R=118, W=118, U=91, E=0)
+2026/03/25 18:08:49 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.444 seconds [  0.444" ]
+2026/03/25 18:08:49 - Dados_Producoes_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2026/03/25 18:08:49 - Workflow - Starting action [Success]
+2026/03/25 18:08:49 - Workflow - Finished action [Success] (result=[true])
+2026/03/25 18:08:49 - Workflow - Finished action [Dados_Producoes_Pesquisadores_Varios.hpl] (result=[true])
+2026/03/25 18:08:49 - Workflow - Finished action [Dados_Pesquisadores_Varios.hpl] (result=[true])
+2026/03/25 18:08:49 - Workflow - Workflow execution finished

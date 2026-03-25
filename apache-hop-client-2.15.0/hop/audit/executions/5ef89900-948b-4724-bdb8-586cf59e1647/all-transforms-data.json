@@ -1,0 +1,83 @@
+{
+  "executionType" : "Transform",
+  "dataSetMeta" : null,
+  "finished" : true,
+  "collectionDate" : 1774468535151,
+  "parentId" : "5ef89900-948b-4724-bdb8-586cf59e1647",
+  "ownerId" : "all-transforms",
+  "setMetaData" : {
+    "LastOutput/Select values.0" : {
+      "setKey" : "LastOutput/Select values.0",
+      "logChannelId" : "e910126b-cbbd-420a-9700-f4cd16ef39f3",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Select values.0"
+    },
+    "FirstOutput/Get data from XML.0" : {
+      "setKey" : "FirstOutput/Get data from XML.0",
+      "logChannelId" : "46ebccd8-48f7-4cf7-94a2-e5c7e2491071",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Get data from XML.0"
+    },
+    "FirstOutput/Get file names.0" : {
+      "setKey" : "FirstOutput/Get file names.0",
+      "logChannelId" : "6daca676-1e98-4d41-bfd0-fe88aee58ba1",
+      "name" : "Get file names",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Get file names.0"
+    },
+    "LastOutput/Get data from XML.0" : {
+      "setKey" : "LastOutput/Get data from XML.0",
+      "logChannelId" : "46ebccd8-48f7-4cf7-94a2-e5c7e2491071",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Get data from XML.0"
+    },
+    "LastOutput/Insert / update.0" : {
+      "setKey" : "LastOutput/Insert / update.0",
+      "logChannelId" : "3681dcdb-6498-482d-affc-83c15ebce9fd",
+      "name" : "Insert / update",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Insert / update.0"
+    },
+    "FirstOutput/Select values.0" : {
+      "setKey" : "FirstOutput/Select values.0",
+      "logChannelId" : "e910126b-cbbd-420a-9700-f4cd16ef39f3",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Select values.0"
+    },
+    "LastOutput/Get file names.0" : {
+      "setKey" : "LastOutput/Get file names.0",
+      "logChannelId" : "6daca676-1e98-4d41-bfd0-fe88aee58ba1",
+      "name" : "Get file names",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Get file names.0"
+    },
+    "FirstOutput/Insert / update.0" : {
+      "setKey" : "FirstOutput/Insert / update.0",
+      "logChannelId" : "3681dcdb-6498-482d-affc-83c15ebce9fd",
+      "name" : "Insert / update",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Insert / update.0"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/+1a3VLTQBROoWgFQZjxRkFZx58r223LtEW8YgooDghjYcaLzDBLc0pXk2zMbgR9AF/C8Zon8Al4IG/0GnfTFEOlF/yFzLA70zTZv++c3ZPs92VjGEbOuL9CuFgLhBcI3AAbmgJ9JnYAvFA0DGMg+qmUdZkDh1GS16PHqh+ekKKGxhC4+c1GxjBiGVubDXkyMe+AT5sENwjbWieBzYwY4g1qNV3vU3KY04tWQHyLoVXiBmAjC9CSD1QQjt4wfwdUnfFqrVQtlyuVaq1ars2UZ1TmvdfBDkMNsk3QOsgWPkF11REP+x4vvahWS9VasVSZLVdqxVljeon6R8P+CgSyiCCo5TMHvV9dCYf+Tmwgci1qg0scaUDmd+TlmGqm8pEq4DH/M8/VoaDav3ty3jkY423mi62rMyDrEdG+AljxxUvQ22xU7QbsUS7i3ScEnKO8TS0L3OShhyn3gVhk24bkwUco3/WpgGTRB6Nq47Z8+jrMoi0KlqBOgiYMRdWynH6F2JPzBFiZe/uxTMWX+fDvokzo3mu3YE+AyylLMPi62IOBT5NHvekzJq4EOft2bXUx1vnEf6vP4QnpvKi55YWV+Y2NxUayyN/rc+YmB5+b0FnY87vUtdguNxeAfxTMM+vEI025wB/sH/wEjrrrf7jam6qsDfk28/JNm4Ir8uVCqVIomjLHbDK3RXdMz2cfJCPhpk2EAG46IIhyylQHDsLcc2yzd/0vyExl391+Bd/SYXgYMComDTXwmc7xx7P8wFJnDsZ+WeE9FFXdV1XnMMb1ORxaj3usx5H1+Lj1T8vFyH55FnqA+3mAZQ7ueIC7HuCOB7jrAY48wNIs3G+ER2K2quvTMrgURVcvIT2Krn4FKY8uNtKJruFHf9IeXf1GuDe6ziYspnpVwr/lIZQIo4aWCGEQaYmgJYKWCFoiXM59fq0kQlpIjabMqafMaQkVzX/TzX8fxrYY9LtuTWQ1kdVEVhNZTWT1u+6LRNZsTLOxS30bmaIY0+Iw9eLwtPspUzGRsOxKZwXCKPAkNOgvkS7xS6TJ+B7Dtf8A7Ay7gGebqckeTax3drQg1oI4aXAtiLUgTh71mu/saIGYeoGYllDROi/dOu9BXDxo1ZaYfPgL2fPsXbozAAA="
+}

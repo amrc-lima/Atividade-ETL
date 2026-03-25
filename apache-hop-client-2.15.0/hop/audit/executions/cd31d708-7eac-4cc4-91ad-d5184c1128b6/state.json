@@ -1,0 +1,73 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : null,
+  "id" : "cd31d708-7eac-4cc4-91ad-d5184c1128b6",
+  "name" : "Dados_Pesquisadores_Varios",
+  "copyNr" : null,
+  "loggingText" : "2026/03/25 17:53:55 - Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2026/03/25 17:53:55 - Dados_Pesquisadores_Varios - Execution started for pipeline [Dados_Pesquisadores_Varios]\r\n2026/03/25 17:53:55 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)\r\n2026/03/25 17:53:55 - Get data from XML.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)\r\n2026/03/25 17:53:55 - Select values.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)\r\n2026/03/25 17:53:56 - Insert / update.0 - Finished processing (I=2, O=1, R=2, W=2, U=0, E=0)\r\n2026/03/25 17:53:56 - Dados_Pesquisadores_Varios - Pipeline duration : 0.157 seconds [  0.157\" ]\r\n",
+  "lastLogLineNr" : 109,
+  "metrics" : [ {
+    "componentName" : "Get data from XML",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 2,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get file names",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Insert / update",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 2,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 1,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  } ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1774472036013,
+  "childIds" : [ "274939ea-87b5-4048-bdef-5c3de1b0f04e", "63578029-308c-4c42-82e7-b2c2b315bba3", "3ccdbfd8-69ee-4a96-a40b-85032b2fc82e", "217d1b2e-5b0a-4e2b-be90-80c78e3818d0" ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1774472036012,
+  "containerId" : "8e4d1a51-3f99-4e78-af20-7476c2072922"
+}

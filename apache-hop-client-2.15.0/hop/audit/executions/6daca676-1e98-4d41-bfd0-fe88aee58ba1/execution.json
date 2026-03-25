@@ -1,0 +1,16 @@
+{
+  "name" : "Get file names",
+  "filename" : null,
+  "id" : "6daca676-1e98-4d41-bfd0-fe88aee58ba1",
+  "parentId" : "5ef89900-948b-4724-bdb8-586cf59e1647",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1774468535107,
+  "executionStartDate" : 1774468535081,
+  "copyNr" : "0"
+}

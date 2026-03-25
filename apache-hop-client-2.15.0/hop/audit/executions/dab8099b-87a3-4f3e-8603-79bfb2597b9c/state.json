@@ -1,0 +1,73 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : null,
+  "id" : "dab8099b-87a3-4f3e-8603-79bfb2597b9c",
+  "name" : "Dados_Pesquisadores_Varios",
+  "copyNr" : null,
+  "loggingText" : "2026/03/25 16:54:03 - Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2026/03/25 16:54:03 - Dados_Pesquisadores_Varios - Execution started for pipeline [Dados_Pesquisadores_Varios]\r\n2026/03/25 16:54:03 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)\r\n2026/03/25 16:54:03 - Microsoft Excel writer.0 - Could not delete stale file [file:///C:/Users/eduardo-windows/Desktop/Capacitações Eduardo Jorge/apache-hop-client-2.15.0/hop]!\r\n2026/03/25 16:54:03 - Microsoft Excel writer.0 - ERROR: Error opening new file\r\n2026/03/25 16:54:03 - Microsoft Excel writer.0 - ERROR: org.apache.hop.core.exception.HopException: \r\n2026/03/25 16:54:03 - Microsoft Excel writer.0 - Could not delete stale file file:///C:/Users/eduardo-windows/Desktop/Capacitações Eduardo Jorge/apache-hop-client-2.15.0/hop\r\n2026/03/25 16:54:03 - Microsoft Excel writer.0 - \r\n2026/03/25 16:54:03 - Microsoft Excel writer.0 - \tat org.apache.hop.pipeline.transforms.excelwriter.ExcelWriterTransform.prepareNextOutputFile(ExcelWriterTransform.java:813)\r\n2026/03/25 16:54:03 - Microsoft Excel writer.0 - \tat org.apache.hop.pipeline.transforms.excelwriter.ExcelWriterTransform.processRow(ExcelWriterTransform.java:130)\r\n2026/03/25 16:54:03 - Microsoft Excel writer.0 - \tat org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)\r\n2026/03/25 16:54:03 - Microsoft Excel writer.0 - \tat java.base/java.lang.Thread.run(Thread.java:1575)\r\n2026/03/25 16:54:03 - Microsoft Excel writer.0 - ERROR: Unexpected error\r\n2026/03/25 16:54:03 - Microsoft Excel writer.0 - ERROR: org.apache.hop.core.exception.HopException: \r\n2026/03/25 16:54:03 - Microsoft Excel writer.0 - Error opening new file\r\n2026/03/25 16:54:03 - Microsoft Excel writer.0 - \r\n2026/03/25 16:54:03 - Microsoft Excel writer.0 - Could not delete stale file file:///C:/Users/eduardo-windows/Desktop/Capacitações Eduardo Jorge/apache-hop-client-2.15.0/hop\r\n2026/03/25 16:54:03 - Microsoft ",
+  "lastLogLineNr" : 126,
+  "metrics" : [ {
+    "componentName" : "Get data from XML",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 2,
+      "Written" : 1,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 1,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Microsoft Excel writer",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 1,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get file names",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  } ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1774468443961,
+  "childIds" : [ "f07b5ced-10d6-4310-8333-96cb5b17c9ff", "61abffc8-5b95-4b3d-86c3-b5298bcad764", "0b1d1b79-76e8-4673-81e6-1be803eea49e", "0400ee8f-90e1-4db4-9d2c-dbb9244dc43f" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1774468443961,
+  "containerId" : "03959cf2-49f9-4a2e-9df4-14459e5c5ebe"
+}

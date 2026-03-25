@@ -1,0 +1,59 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : null,
+  "id" : "d6f34779-22d3-4df6-a4f6-e329f3bcf5fc",
+  "name" : "Dados_Pesquisador",
+  "copyNr" : null,
+  "loggingText" : "2026/03/25 16:44:03 - Dados_Pesquisador - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2026/03/25 16:44:03 - Dados_Pesquisador - Execution started for pipeline [Dados_Pesquisador]\r\n2026/03/25 16:44:03 - Get data from XML.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)\r\n2026/03/25 16:44:03 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)\r\n2026/03/25 16:44:03 - Insert / update.0 - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)\r\n2026/03/25 16:44:03 - Dados_Pesquisador - Pipeline duration : 0.05 seconds [  0.050\" ]\r\n",
+  "lastLogLineNr" : 70,
+  "metrics" : [ {
+    "componentName" : "Get data from XML",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 1,
+      "Written" : 1,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 1,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Insert / update",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 1,
+      "Written" : 1,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  } ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1774467843450,
+  "childIds" : [ "b5f4be50-fbad-44e6-82be-644183edb0f9", "462a08ec-a9ed-423d-9b80-3dc5ea4e5ad2", "8e767571-c455-4a29-9da3-db5a4af680db" ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1774467843450,
+  "containerId" : "dd9dabdb-9f00-4534-ac83-163f97647bf0"
+}

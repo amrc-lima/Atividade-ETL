@@ -1,0 +1,73 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : null,
+  "id" : "0f833e77-365c-43b9-b8d7-13544edf1d3d",
+  "name" : "Dados_Pesquisadores_Varios",
+  "copyNr" : null,
+  "loggingText" : "2026/03/25 16:45:33 - Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2026/03/25 16:45:33 - Dados_Pesquisadores_Varios - Execution started for pipeline [Dados_Pesquisadores_Varios]\r\n2026/03/25 16:45:33 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)\r\n2026/03/25 16:45:33 - Get data from XML.0 - ERROR: No field specified! Stop processing.\r\n2026/03/25 16:45:33 - Get data from XML.0 - ERROR: Unexpected Error : org.apache.hop.core.exception.HopException: \r\n2026/03/25 16:45:33 - Get data from XML.0 - No field specified! Stop processing.\r\n2026/03/25 16:45:33 - Get data from XML.0 - ERROR: org.apache.hop.core.exception.HopException: \r\n2026/03/25 16:45:33 - Get data from XML.0 - No field specified! Stop processing.\r\n2026/03/25 16:45:33 - Get data from XML.0 - \r\n2026/03/25 16:45:33 - Get data from XML.0 - \tat org.apache.hop.pipeline.transforms.xml.getxmldata.GetXmlData.ReadNextString(GetXmlData.java:393)\r\n2026/03/25 16:45:33 - Get data from XML.0 - \tat org.apache.hop.pipeline.transforms.xml.getxmldata.GetXmlData.getXmlRowPutRowWithErrorhandling(GetXmlData.java:764)\r\n2026/03/25 16:45:33 - Get data from XML.0 - \tat org.apache.hop.pipeline.transforms.xml.getxmldata.GetXmlData.getXmlRow(GetXmlData.java:754)\r\n2026/03/25 16:45:33 - Get data from XML.0 - \tat org.apache.hop.pipeline.transforms.xml.getxmldata.GetXmlData.processRow(GetXmlData.java:714)\r\n2026/03/25 16:45:33 - Get data from XML.0 - \tat org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)\r\n2026/03/25 16:45:33 - Get data from XML.0 - \tat java.base/java.lang.Thread.run(Thread.java:1575)\r\n2026/03/25 16:45:33 - Get data from XML.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)\r\n2026/03/25 16:45:33 - Dados_Pesquisadores_Varios - Pipeline detected one or more transforms with errors.\r\n2026/03/25 16:45:33 - Dados_Pesquisadores_Varios - Pipeline is killing the other transforms!\r\n2026/03/25 16:45:33 - Dados_Pesquisadores",
+  "lastLogLineNr" : 84,
+  "metrics" : [ {
+    "componentName" : "Get data from XML",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 1,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 1
+    }
+  }, {
+    "componentName" : "Select values",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Microsoft Excel writer",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get file names",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 1,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  } ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1774467933370,
+  "childIds" : [ "9866763e-ee42-41f3-ba42-2ff15669d9a6", "e40fb586-8b5c-4c9f-9989-950a3086f7ba", "65f13e61-052c-446c-8193-eb3fd83ccd25", "86e2e7a4-d38e-4c6f-9a7f-5c2f43986211" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1774467933370,
+  "containerId" : "4955e490-7d6d-48d3-93af-ef415f62fc2d"
+}

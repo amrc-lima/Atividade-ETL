@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "608962d9-d2e9-421b-bd9c-ab2ae3c3b828",
+  "id" : "3030ddf6-9d58-48d3-a0cc-796de0c1ac58",
+  "name" : "Get file names",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1774469305871,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1774469305846,
+  "containerId" : "161a2bde-d918-48c3-985c-0813b3347888"
+}

@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "0f833e77-365c-43b9-b8d7-13544edf1d3d",
+  "id" : "9866763e-ee42-41f3-ba42-2ff15669d9a6",
+  "name" : "Get data from XML",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Stopped",
+  "updateTime" : 1774467933373,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1774467933366,
+  "containerId" : "4955e490-7d6d-48d3-93af-ef415f62fc2d"
+}

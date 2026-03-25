@@ -1,0 +1,16 @@
+{
+  "name" : "Insert / update",
+  "filename" : null,
+  "id" : "49b25117-ff3d-4811-ae93-c5913c51d250",
+  "parentId" : "6f850f8a-cb07-46c6-86e0-3bd4f6a47a4a",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1774467314378,
+  "executionStartDate" : 1774467314345,
+  "copyNr" : "0"
+}

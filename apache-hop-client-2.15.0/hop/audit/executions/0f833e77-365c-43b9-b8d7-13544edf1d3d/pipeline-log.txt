@@ -1,0 +1,19 @@
+2026/03/25 16:45:33 - Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/03/25 16:45:33 - Dados_Pesquisadores_Varios - Execution started for pipeline [Dados_Pesquisadores_Varios]
+2026/03/25 16:45:33 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/03/25 16:45:33 - Get data from XML.0 - ERROR: No field specified! Stop processing.
+2026/03/25 16:45:33 - Get data from XML.0 - ERROR: Unexpected Error : org.apache.hop.core.exception.HopException: 
+2026/03/25 16:45:33 - Get data from XML.0 - No field specified! Stop processing.
+2026/03/25 16:45:33 - Get data from XML.0 - ERROR: org.apache.hop.core.exception.HopException: 
+2026/03/25 16:45:33 - Get data from XML.0 - No field specified! Stop processing.
+2026/03/25 16:45:33 - Get data from XML.0 - 
+2026/03/25 16:45:33 - Get data from XML.0 - 	at org.apache.hop.pipeline.transforms.xml.getxmldata.GetXmlData.ReadNextString(GetXmlData.java:393)
+2026/03/25 16:45:33 - Get data from XML.0 - 	at org.apache.hop.pipeline.transforms.xml.getxmldata.GetXmlData.getXmlRowPutRowWithErrorhandling(GetXmlData.java:764)
+2026/03/25 16:45:33 - Get data from XML.0 - 	at org.apache.hop.pipeline.transforms.xml.getxmldata.GetXmlData.getXmlRow(GetXmlData.java:754)
+2026/03/25 16:45:33 - Get data from XML.0 - 	at org.apache.hop.pipeline.transforms.xml.getxmldata.GetXmlData.processRow(GetXmlData.java:714)
+2026/03/25 16:45:33 - Get data from XML.0 - 	at org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)
+2026/03/25 16:45:33 - Get data from XML.0 - 	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026/03/25 16:45:33 - Get data from XML.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2026/03/25 16:45:33 - Dados_Pesquisadores_Varios - Pipeline detected one or more transforms with errors.
+2026/03/25 16:45:33 - Dados_Pesquisadores_Varios - Pipeline is killing the other transforms!
+2026/03/25 16:45:33 - Dados_Pesquisadores_Varios - Pipeline duration : 0.063 seconds [  0.063" ]

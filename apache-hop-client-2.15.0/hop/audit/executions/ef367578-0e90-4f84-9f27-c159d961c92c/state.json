@@ -1,0 +1,129 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : "bdc4e25a-41b3-47f3-a52c-bfb2df340b6a",
+  "id" : "ef367578-0e90-4f84-9f27-c159d961c92c",
+  "name" : "Dados_Producoes_Pesquisadores_Varios",
+  "copyNr" : null,
+  "loggingText" : "2026/03/25 18:09:14 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2026/03/25 18:09:14 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]\r\n2026/03/25 18:09:14 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)\r\n2026/03/25 18:09:14 - Table input Pesquisadores.0 - Finished reading query, closing connection.\r\n2026/03/25 18:09:14 - Table input Pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)\r\n2026/03/25 18:09:14 - Sort rows Pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)\r\n2026/03/25 18:09:14 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)\r\n2026/03/25 18:09:14 - Select values.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)\r\n2026/03/25 18:09:14 - Sort rows Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)\r\n2026/03/25 18:09:14 - Merge join.0 - Finished processing (I=0, O=0, R=120, W=118, U=0, E=0)\r\n2026/03/25 18:09:14 - Insert / update.0 - Finished processing (I=118, O=0, R=118, W=118, U=91, E=0)\r\n2026/03/25 18:09:14 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.452 seconds [  0.452\" ]\r\n",
+  "lastLogLineNr" : 212,
+  "metrics" : [ {
+    "componentName" : "Get file names",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get data from XML",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 118,
+      "Written" : 118,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 118,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 118,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Sort rows Produções",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 118,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 118,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Table input Pesquisadores",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 2,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Sort rows Pesquisadores",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Merge join",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 120,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 118,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Insert / update",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 118,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 118,
+      "Written" : 118,
+      "Updated" : 91,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  } ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1774472954922,
+  "childIds" : [ "82f69b32-ffb3-4560-94c9-3f96b7c762b1", "50ac832b-91e8-4fe5-8047-55823ef02dde", "d604622d-5a59-4d05-bc8d-f5c5c343acba", "672c2e27-a340-483e-adbb-7c5ecce3cd94", "f455409f-b08d-4669-8072-db5d8450f473", "bfd0bac7-41c7-4c77-80c9-632ae841c51d", "0a65d33a-d8db-44bc-8598-0803aced947c", "5122b126-8d70-47b0-b94d-178a6710d859" ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1774472954922,
+  "containerId" : null
+}

@@ -1,0 +1,59 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : null,
+  "id" : "f4e69197-abcb-4b68-9cd7-ec479228c533",
+  "name" : "Dados_Pesquisador",
+  "copyNr" : null,
+  "loggingText" : "2026/03/25 17:50:37 - Dados_Pesquisador - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2026/03/25 17:50:37 - Dados_Pesquisador - Execution started for pipeline [Dados_Pesquisador]\r\n2026/03/25 17:50:37 - Get data from XML.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)\r\n2026/03/25 17:50:37 - Insert / update.0 - ERROR: Error in transform, asking everyone to stop because of:\r\n2026/03/25 17:50:37 - Insert / update.0 - ERROR: org.apache.hop.core.exception.HopDatabaseException: \r\n2026/03/25 17:50:37 - Insert / update.0 - Error looking up row in database\r\n2026/03/25 17:50:37 - Insert / update.0 - ERROR: relation \"public.pesquisadores\" does not exist\n  Position: 29\r\n2026/03/25 17:50:37 - Insert / update.0 - \r\n2026/03/25 17:50:37 - Insert / update.0 - \tat org.apache.hop.core.database.Database.getLookup(Database.java:2869)\r\n2026/03/25 17:50:37 - Insert / update.0 - \tat org.apache.hop.core.database.Database.getLookup(Database.java:2846)\r\n2026/03/25 17:50:37 - Insert / update.0 - \tat org.apache.hop.core.database.Database.getLookup(Database.java:2841)\r\n2026/03/25 17:50:37 - Insert / update.0 - \tat org.apache.hop.pipeline.transforms.insertupdate.InsertUpdate.lookupValues(InsertUpdate.java:86)\r\n2026/03/25 17:50:37 - Insert / update.0 - \tat org.apache.hop.pipeline.transforms.insertupdate.InsertUpdate.processRow(InsertUpdate.java:322)\r\n2026/03/25 17:50:37 - Insert / update.0 - \tat org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)\r\n2026/03/25 17:50:37 - Insert / update.0 - \tat java.base/java.lang.Thread.run(Thread.java:1575)\r\n2026/03/25 17:50:37 - Insert / update.0 - Caused by: org.postgresql.util.PSQLException: ERROR: relation \"public.pesquisadores\" does not exist\n  Position: 29\r\n2026/03/25 17:50:37 - Insert / update.0 - \tat org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2734)\r\n2026/03/25 17:50:37 - Insert / update.0 - \tat org.postgresql.core.v3.QueryExecutorImpl.processResults(Q",
+  "lastLogLineNr" : 88,
+  "metrics" : [ {
+    "componentName" : "Get data from XML",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 1,
+      "Written" : 1,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 1,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Insert / update",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 1,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  } ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1774471837510,
+  "childIds" : [ "47be15cc-5b61-4b20-8074-3282ac293be5", "d02bbbe3-4b3c-47d9-9622-bb49d73daf20", "99f0e3dc-5b19-468d-a841-bfb4cd6a71f6" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1774471837509,
+  "containerId" : "86019c06-a7ef-41d1-a5a3-ef992160e3e8"
+}

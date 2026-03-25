@@ -1,0 +1,83 @@
+{
+  "executionType" : "Transform",
+  "dataSetMeta" : null,
+  "finished" : true,
+  "collectionDate" : 1774472928545,
+  "parentId" : "1f9a8427-f42d-458e-81e5-06f79d23e5a2",
+  "ownerId" : "all-transforms",
+  "setMetaData" : {
+    "LastOutput/Select values.0" : {
+      "setKey" : "LastOutput/Select values.0",
+      "logChannelId" : "c9118b08-dffe-40fa-a16c-6c7f0228a8aa",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Select values.0"
+    },
+    "FirstOutput/Get data from XML.0" : {
+      "setKey" : "FirstOutput/Get data from XML.0",
+      "logChannelId" : "f298ebe8-e270-4267-96f5-9fa1d5d47965",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Get data from XML.0"
+    },
+    "FirstOutput/Get file names.0" : {
+      "setKey" : "FirstOutput/Get file names.0",
+      "logChannelId" : "ef2e2dea-e5f2-4936-92a4-77b730fad591",
+      "name" : "Get file names",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Get file names.0"
+    },
+    "LastOutput/Get data from XML.0" : {
+      "setKey" : "LastOutput/Get data from XML.0",
+      "logChannelId" : "f298ebe8-e270-4267-96f5-9fa1d5d47965",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Get data from XML.0"
+    },
+    "LastOutput/Insert / update.0" : {
+      "setKey" : "LastOutput/Insert / update.0",
+      "logChannelId" : "7867cdeb-ea6d-42b6-8ac7-ffaf0f2983dd",
+      "name" : "Insert / update",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Insert / update.0"
+    },
+    "FirstOutput/Select values.0" : {
+      "setKey" : "FirstOutput/Select values.0",
+      "logChannelId" : "c9118b08-dffe-40fa-a16c-6c7f0228a8aa",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Select values.0"
+    },
+    "LastOutput/Get file names.0" : {
+      "setKey" : "LastOutput/Get file names.0",
+      "logChannelId" : "ef2e2dea-e5f2-4936-92a4-77b730fad591",
+      "name" : "Get file names",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Get file names.0"
+    },
+    "FirstOutput/Insert / update.0" : {
+      "setKey" : "FirstOutput/Insert / update.0",
+      "logChannelId" : "7867cdeb-ea6d-42b6-8ac7-ffaf0f2983dd",
+      "name" : "Insert / update",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Insert / update.0"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/+1az1PTQBTeQsEKgjDjRUGJo+PJdNsybRFPDD8UpwhjYYZDZpgleaWrSTZmN1L9Hzx69G/0omfMpimGSg/8SpnJ7kzT9uXtft9uXpLv7S5CqIAeNQgX24HwAoGbYIMptC/EDoAXSwihkfgjS95lDpzEJfw/dcb95JwSV0Rj4Op7zRxCCcPBXjP8MbvigE9NgpuEHeyQwGYogThOLdP1PqeHubBuBcS3mLZF3ABszQJtwwcqCNfeMf8IpM9MrV6uVSrVaq1eq9QXK4vS+PBtcMS0Jjkk2g6ENXyircqGeNT2TPlVrVau1Uvl6lKlWi8toYUN6p8O+xsQmkUE0Vo+c7T9rUY09PcTA1FoURtc4oQEcr/jXk7LatKuyRM80f/cS3koyvofnl/1GkzzNvPFwfAI5D0i2kOAFV+9FHubj93GoUO5SDafEnCB8ja1LHDTh56g3AdikUMb0gefpPzYpwLSRR+N3Wbs8OnrMIu2KFiCOilSGIvd8px+g8ST8xzY0HrvWVhKr/Xo67oo9O61u9AR4HLKUgy+HvZo4NP0Ue/4jImhIOffb2+tJxqf/e/tc3JOuSpqYXOtsbK7u95MF/n76rKxx8HnBnRf7PoxdS12zI014J8E84wdn30EwfQGEQK4QTxitkFvM083bQqu0CvFcrVYMkKLYTK3RY8MT1YxBTfsbh0HBJHdMOSBgzA6jm30v/GLoVEyejDoRGdYVKOgkHGH5ODmusefL/SRje44T/+yovskdv0hXZcxxqvLOOKL+/jimC8+yxcP4otDC+7yxT2+uMsX9/jimC8OSeBBIziZYCb/X1STDTVe+kXlabwMOnHr4oVNduNl4umf2xUvg0awP14uJ/7n+5X8v0d4JOOnkJLxUcgoGa9kvJLxSsbfzH2eKRmvZG2GZa3SqFnVqE8SU/VqzliJTSU2ldhUYlOJTTVnfJ3ISl9lVV+hK2wAUClZhlOyi640zCeE/KYbdk1oWAu8EBrUrpsb3HUzl5yrz/xmp0usj13uSs315a1qhUQlrSppTRtcJa0qaU0fNXMrJCqJG3oSp3KxrOZij5MCX2VWqUn8v8kcKLtKMgAA"
+}

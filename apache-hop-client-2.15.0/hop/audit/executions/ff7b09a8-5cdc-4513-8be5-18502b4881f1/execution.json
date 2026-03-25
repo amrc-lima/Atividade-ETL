@@ -1,0 +1,16 @@
+{
+  "name" : "Sort rows Pesquisadores",
+  "filename" : null,
+  "id" : "ff7b09a8-5cdc-4513-8be5-18502b4881f1",
+  "parentId" : "e3d2b7e8-fb01-4826-95e3-69f254fbc000",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1774472187346,
+  "executionStartDate" : 1774472187290,
+  "copyNr" : "0"
+}

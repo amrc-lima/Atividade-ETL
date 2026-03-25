@@ -1,0 +1,83 @@
+{
+  "executionType" : "Transform",
+  "dataSetMeta" : null,
+  "finished" : true,
+  "collectionDate" : 1774468443971,
+  "parentId" : "dab8099b-87a3-4f3e-8603-79bfb2597b9c",
+  "ownerId" : "all-transforms",
+  "setMetaData" : {
+    "LastOutput/Select values.0" : {
+      "setKey" : "LastOutput/Select values.0",
+      "logChannelId" : "61abffc8-5b95-4b3d-86c3-b5298bcad764",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Select values.0"
+    },
+    "FirstOutput/Get data from XML.0" : {
+      "setKey" : "FirstOutput/Get data from XML.0",
+      "logChannelId" : "f07b5ced-10d6-4310-8333-96cb5b17c9ff",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Get data from XML.0"
+    },
+    "LastOutput/Microsoft Excel writer.0" : {
+      "setKey" : "LastOutput/Microsoft Excel writer.0",
+      "logChannelId" : "0b1d1b79-76e8-4673-81e6-1be803eea49e",
+      "name" : "Microsoft Excel writer",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Microsoft Excel writer.0"
+    },
+    "FirstOutput/Get file names.0" : {
+      "setKey" : "FirstOutput/Get file names.0",
+      "logChannelId" : "0400ee8f-90e1-4db4-9d2c-dbb9244dc43f",
+      "name" : "Get file names",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Get file names.0"
+    },
+    "LastOutput/Get data from XML.0" : {
+      "setKey" : "LastOutput/Get data from XML.0",
+      "logChannelId" : "f07b5ced-10d6-4310-8333-96cb5b17c9ff",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Get data from XML.0"
+    },
+    "FirstOutput/Select values.0" : {
+      "setKey" : "FirstOutput/Select values.0",
+      "logChannelId" : "61abffc8-5b95-4b3d-86c3-b5298bcad764",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Select values.0"
+    },
+    "LastOutput/Get file names.0" : {
+      "setKey" : "LastOutput/Get file names.0",
+      "logChannelId" : "0400ee8f-90e1-4db4-9d2c-dbb9244dc43f",
+      "name" : "Get file names",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Get file names.0"
+    },
+    "FirstOutput/Microsoft Excel writer.0" : {
+      "setKey" : "FirstOutput/Microsoft Excel writer.0",
+      "logChannelId" : "0b1d1b79-76e8-4673-81e6-1be803eea49e",
+      "name" : "Microsoft Excel writer",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Microsoft Excel writer.0"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/+1a3VLTQBQOULCCIMx4489oHNAr023DNEW8YkrxZ0AYCzNeZIZZklO6mmTj7kaqD+BLOF7zBD4BD+SNXmP+iqHSUQYInWF3pmmye5LvOydns19OqyhKUbmzirlYD4QfCNQEByyhfsROALxUVhRlOP1EreBRFw7TFh5PHjM/PKGlJyqj4GlbzSFFyXRsbzXDnZklFxixMGpiur2BA4cqGcQxYlue/yEXzNjy9otgl6pNvIPVDWBAGFbrmNmUxybTlaeGUTFq5Up1Qa/WygvKgxXCjqL3HIRqY4HVFqOu+nZtNY7gzYw/xRZxwMMuhHA/U7JT0WlRvxoN8IwbQ0+iTSk6/83cWUM5xduUie3LI1DwsWhfAqz45OfobSE1G4MO4SJ7+ZyAi4S3iW2Dlz/0OOEMsI13HMgffILwPUYE5Is+kppNO+FD1KU2aRGwBXFzpDCamhU4+QyZB+AJsGHvjdmwlZ9p8dd5UejOtevQEeBxQnNMvi72SMBI/qjXGKXiUpALr9fXGpmLz/y1+hye0M6KWny5vLq0udlo5oYcW36tL5pbHBg3wQ6i9VjbI55N97i5DPy9oL5Zxz62iMAH+wffgauNxEx9RdkumNFYG7Q29TXLIeAJTS9VqqWyGfaYFvVaZNf0GX0XCgtuOlgI4KYLAkdOmdGGgzA7rmP2rv+lsDPid6vfwJfBIB4nTJSTcTiHku23x9rwSnIPpn7Y8RxKTfcj00WEUH0RxexRD3uUskfH2T/Syyn/cC/2APXzAIU9KPEAdT1AiQeo6wFKPUAhLdQvwhMZrtHxaRXcbEb+rhGLhYYtoTY6FjhqvKCwWMUl7V6v3Pszz2OrSUVqvTjXpNaTWk9qPan1LmaeXymtJ7WP1D7/qX0GJVWMWsXQ9WrVqBl6bV6fP0qVfgMDnip0IkmV8Ye/Bj1V+kX4WKrcz2heWbSUQlYKWSlkpZCVQlYWLc8JWRYtpXC/yKLl3WwdUv5of9ro9chfWcSV2ldq37zBpfaV2jd/1CtexJWVucGuzA1QqsjXhsF+bZjLvgP8658LvwHLvBc96isAAA=="
+}
