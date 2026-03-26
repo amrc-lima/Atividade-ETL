@@ -168,7 +168,7 @@ O projeto gera uma base estruturada de pesquisadores e suas produções científ
 
 ## 👨‍💻 Autor
 
-Projeto desenvolvido como atividade acadêmica para a disciplina de Engenharia de Dados / ETL.
+Projeto desenvolvido como atividade acadêmica para a disciplina de Tópicos Especiais em Engenharia de Software.
 
 ---
 
